@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  background: url("./header.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3rem;
+  color: white;
+}
+
+hr {
+  border-color: darkgoldenrod;
+  border-width: 3px;
+  border-style: solid;
+  opacity: 1;
+  max-width: 65px;
+  margin: 20px auto;
+}
+
+.buffer {
+  height: 10rem;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color: darkgoldenrod;
+  border-color: darkgoldenrod;
+}
+
+.btn-primary:hover {
+  background-color: darkorange;
+  border-color: darkorange;
+  border-width: 4px;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
